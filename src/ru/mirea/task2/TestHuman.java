@@ -5,10 +5,15 @@ import java.util.stream.Stream;
 
 public class TestHuman {
     public static void main(String[] args) {
+
+        //можно через static
         HumanApp humanApp = new HumanApp();
         Stream<Human> listHuman =  humanApp.getHumans();
         humanApp.printHuman(listHuman);
-        System.out.println(humanApp.getSumAge(listHuman));
+
+        HumanApp humanApp1 = new HumanApp();
+        Stream<Human> listHuman1 =  humanApp.getHumans();
+        System.out.println(humanApp1.getSumAge(listHuman1));
 
     }
 }
