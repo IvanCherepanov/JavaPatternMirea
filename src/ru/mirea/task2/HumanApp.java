@@ -2,6 +2,7 @@ package ru.mirea.task2;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -9,7 +10,7 @@ import java.util.stream.Stream;
 
 /*
 Сортировка по имени                                     -
-фильтрация по дате рождения большей, чем 24 июня 2000   -
+фильтрация по дате рождения большей, чем 24 июня 2000   -done
 сортировка по фамилии                                   -
 нахождение суммы всех возрастов                         -done
 */
@@ -40,7 +41,22 @@ public class HumanApp {
         return temp.filter(human -> human.getBirthDate().isBefore(LocalDate.of(2000,06,24) ));//.collect(Collectors.toList());
     }
 
+    //вывод на экран
     public void printHuman(Stream<Human> temp) {
         temp.forEach(System.out::println);
+    }
+
+    //сортировка по имени
+    public void sortByName(Stream<Human> temp){
+        temp.sorted((human1,human2)->{
+            return (human1.getFirstName().compareTo(human2.getFirstName()));
+        }).forEach(System.out::println);
+    }
+
+    //сортировка по имени
+    public void sortBySurName(Stream<Human> temp){
+        temp.sorted((human1,human2)->{
+            return (human1.getLastName().compareTo(human2.getLastName()));
+        }).forEach(System.out::println);
     }
 }
