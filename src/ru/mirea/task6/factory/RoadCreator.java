@@ -6,8 +6,4 @@ public class RoadCreator extends Factory{
         return new RoadTranstopt();
     }
 
-    @Override
-    public Transport doTransport() {
-        return super.doTransport();
-    }
 }

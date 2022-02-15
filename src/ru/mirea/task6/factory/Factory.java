@@ -7,6 +7,6 @@ public abstract class Factory {
         return  transport;
         }
 
-    public abstract Transport createTransport();
+    protected abstract Transport createTransport();
 }
 

@@ -1,6 +1,6 @@
 package ru.mirea.task6.factory;
 
-public class SeaTransport implements Transport{
+public class SeaTransport extends Transport{
     @Override
     public void deliver() {
         System.out.println("Deliver by sea");
