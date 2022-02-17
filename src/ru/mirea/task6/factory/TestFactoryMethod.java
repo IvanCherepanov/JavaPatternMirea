@@ -4,9 +4,11 @@ public class TestFactoryMethod {
 
     public static void main(String[] args) {
         Factory roadTranstopt = new RoadCreator();
-        roadTranstopt.doTransport();
+        for (int i=0;i<3;i++){
+            roadTranstopt.doTransport();
+        }
 
-        Factory seaTransport = new RoadCreator();
+        Factory seaTransport = new SeaCreator();
         seaTransport.doTransport();
 
     }

@@ -60,10 +60,10 @@ public class Teask3Test {
         one.setName("Thread1");
         Thread two = new myThread2(list);
         two.setName("Thread2");
-        //System.out.println("Задание 1:");
+        System.out.println("Задание 1:");
         //чтобы не было траблов с потоками - запускаем через закоменчивание
-        //one.start();
-        //two.start();
+        one.start();
+        two.start();
 
         //вторая часть задания
         Map map = new HashMap();
@@ -75,7 +75,7 @@ public class Teask3Test {
         four.setName("Thread4");
         System.out.println("Задание 2:");
         //чтобы не было трабблов с потоками - закоменчиваем
-        three.start();
-        four.start();
+        //three.start();
+        //four.start();
     }
 }
