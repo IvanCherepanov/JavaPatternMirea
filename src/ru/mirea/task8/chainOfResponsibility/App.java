@@ -1,9 +1,10 @@
 package ru.mirea.task8.chainOfResponsibility;
 
 public class App {
+    Server server = new Server();//создаем сервер
     public void init(){
 
-        Server server = new Server();//создаем сервер
+
 
         //заполняем "базу данных"
         server.register("admin@yandex.ru", "admin_pass");
@@ -18,5 +19,9 @@ public class App {
         // Сервер получает цепочку от клиентского кода.
         // Можем делать несколько
         server.setBaseCheck(baseCheck);
+
+    }
+    public   boolean auth(User user){
+        return server.logIn(user);
     }
 }

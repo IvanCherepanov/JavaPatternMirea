@@ -6,8 +6,9 @@ import java.io.InputStreamReader;
 
 public class TestChain {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    private static Server server;
-    public static void init(){
+    //private static Server server;
+    private  Server server;
+    /*public static void init(){
         server = new Server();//создаем сервер
 
         //заполняем "базу данных"
@@ -24,17 +25,18 @@ public class TestChain {
         // Можем делать несколько
         server.setBaseCheck(baseCheck);
     }
+    */
     public static void main(String[] args) throws IOException {
-        init();
-        //App app = new App();
-        //app.init();
+        //init();
+        App app = new App();
+        app.init();
         boolean success;
         do {
             System.out.print("Enter email: ");
             String email = reader.readLine();
             System.out.print("Input password: ");
             String password = reader.readLine();
-            success = server.logIn(new User(email, password));
+            success = app.auth(new User(email,password));
         } while (!success);
     }
     }
