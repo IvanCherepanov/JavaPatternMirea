@@ -1,6 +1,7 @@
 package ru.mirea.task8.command;
 
 public class TestCommand {
+    private CommandHistory history = new CommandHistory();
     public static void main(String[] args) {
         Cooker cooker = new Cooker();
         Command command1 = new TurnOnCookerCommand(cooker);
