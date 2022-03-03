@@ -1,4 +1,4 @@
-package com.example.task10_4.interfaces;
+package com.example.demo.interfaces;
 
 public interface Knight {
     void fight();

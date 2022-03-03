@@ -1,10 +1,8 @@
-package com.example.task10_4.components;
+package com.example.demo.components;
 
 
-import com.example.task10_4.interfaces.Knight;
-import org.springframework.stereotype.Component;
+import com.example.demo.interfaces.Knight;
 
-@Component
 public class StrongKnight implements Knight {
     @Override
     public void fight() {
