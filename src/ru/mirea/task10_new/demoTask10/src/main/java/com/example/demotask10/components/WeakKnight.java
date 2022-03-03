@@ -1,7 +1,7 @@
-package com.example.demo.components;
+package com.example.demotask10.components;
 
 
-import com.example.demo.interfaces.Knight;
+import com.example.demotask10.interfaces.Knight;
 
 public class WeakKnight implements Knight {
 

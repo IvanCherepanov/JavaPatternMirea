@@ -1,8 +1,9 @@
-package com.example.demo.configuration;
+package com.example.demotask10.configuration;
 
-import com.example.demo.components.KingOfKnights;
-import com.example.demo.components.StrongKnight;
-import com.example.demo.components.WeakKnight;
+
+import com.example.demotask10.components.KingOfKnights;
+import com.example.demotask10.components.StrongKnight;
+import com.example.demotask10.components.WeakKnight;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
