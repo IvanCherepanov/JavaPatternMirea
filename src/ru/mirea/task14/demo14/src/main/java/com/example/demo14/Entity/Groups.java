@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Group {
+public class Groups {
     private  String  groupName;
 
     @Override
