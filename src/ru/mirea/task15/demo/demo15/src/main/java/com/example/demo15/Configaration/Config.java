@@ -17,7 +17,7 @@ public class Config {
     @Bean
     public HikariDataSource dataSource() {
         HikariConfig config = new HikariConfig();
-        config.setDriverClassName("org.postgresql.Driver");
+        //config.setDriverClassName("org.postgresql.Driver");
         config.setJdbcUrl("jdbc:postgresql://localhost:5432/postgres");
         config.setUsername("postgres");
         config.setPassword("postgres");
@@ -28,6 +28,7 @@ public class Config {
     public LocalSessionFactoryBean factoryBean(DataSource dataSource) {
         LocalSessionFactoryBean sessionFactoryBean = new LocalSessionFactoryBean();
         sessionFactoryBean.setDataSource(dataSource);
+
         sessionFactoryBean.setPackagesToScan("com.example.demo15.tables");
         Properties properties = new Properties();
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQL10Dialect");

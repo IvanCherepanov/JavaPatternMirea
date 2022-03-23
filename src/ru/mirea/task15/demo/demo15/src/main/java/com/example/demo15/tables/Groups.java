@@ -1,6 +1,7 @@
 package com.example.demo15.tables;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -10,13 +11,14 @@ import javax.persistence.*;
 @Table(name = "groupss")
 @Setter
 @Getter
+@NoArgsConstructor
 public class Groups {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
 
-    @Column(name = "group_name")
+    @Column(name = "groupname")
     private String groupName;
 
     @Override
