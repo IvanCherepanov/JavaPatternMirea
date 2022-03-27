@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS studentsR
     middle_name  VARCHAR(256) NOT NULL,
     group_id INTEGER
     );
-DROP TABLE IF EXISTS groupsR;
+--DROP TABLE IF EXISTS groupsR;
 CREATE TABLE IF NOT EXISTS groupsR
 (
     id    SERIAL NOT NULL PRIMARY KEY ,

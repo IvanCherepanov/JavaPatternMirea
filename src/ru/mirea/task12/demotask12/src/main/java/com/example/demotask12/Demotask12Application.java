@@ -18,6 +18,8 @@ public class Demotask12Application implements CommandLineRunner {
     private FileWorker fileWorker;
 
     public static void main(String[] args) {
+        //D:\java\2cource\Exapmle_GUI\JavaPatternMirea\src\ru\mirea\task12\demotask12\src\main\java\com\example\demotask12\input.txt witcher.txt
+        //в programme atributes
         SpringApplication app = new SpringApplication(Demotask12Application.class);
         app.run(args);
     }
