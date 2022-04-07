@@ -1,4 +1,4 @@
-package com.example.demo22;
+package com.example.demo23;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -33,7 +33,7 @@ public class AOPAspect {
                 " persist for "+(end-start)+" ms"+" with parametrs{}: "+ Arrays.toString(joinPoint.getArgs()));
         return  result;
     }
-    @Pointcut("within(com.example.demo22.services.*)")
+    @Pointcut("within(com.example.demo23.services.*)")
     public void allServiceMethods() {}
 
 }
