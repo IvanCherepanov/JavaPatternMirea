@@ -22,8 +22,6 @@ public class AuthController {
         return "login";
     }
 
-
-
     @GetMapping("/web-home")
     public String getIndexPage() {
         return "home";

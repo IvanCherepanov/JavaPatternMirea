@@ -1,202 +1,164 @@
-1359 [background-preinit] INFO  o.h.validator.internal.util.Version
+1293 [background-preinit] INFO  o.h.validator.internal.util.Version
                 – HV000001: Hibernate Validator 6.2.3.Final
-1361 [main] INFO  c.example.demo21.Demo21Application
-                – Starting Demo21Application using Java 15.0.1 on LAPTOP-87654321 with PID 6044 (D:\java\2cource\Exapmle_GUI\JavaPatternMirea\src\ru\mirea\task21\demo21\target\classes started by Ivan in D:\java\2cource\Exapmle_GUI\JavaPatternMirea)
-1378 [main] INFO  c.example.demo21.Demo21Application
+1293 [main] INFO  c.example.demo21.Demo21Application
+                – Starting Demo21Application using Java 15.0.1 on LAPTOP-87654321 with PID 9764 (D:\java\2cource\Exapmle_GUI\JavaPatternMirea\src\ru\mirea\task21\demo21\target\classes started by Ivan in D:\java\2cource\Exapmle_GUI\JavaPatternMirea)
+1302 [main] INFO  c.example.demo21.Demo21Application
                 – No active profile set, falling back to 1 default profile: "default"
-2582 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+2546 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
                 – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2693 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
-                – Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
-4544 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+2658 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 95 ms. Found 2 JPA repository interfaces.
+4258 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
                 – Tomcat initialized with port(s): 8080 (http)
-4565 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+4266 [main] INFO  o.a.coyote.http11.Http11NioProtocol
                 – Initializing ProtocolHandler ["http-nio-8080"]
-4565 [main] INFO  o.a.catalina.core.StandardService
+4266 [main] INFO  o.a.catalina.core.StandardService
                 – Starting service [Tomcat]
-4565 [main] INFO  o.a.catalina.core.StandardEngine
+4274 [main] INFO  o.a.catalina.core.StandardEngine
                 – Starting Servlet engine: [Apache Tomcat/9.0.60]
-4879 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+4522 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
                 – Initializing Spring embedded WebApplicationContext
-4879 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
-                – Root WebApplicationContext: initialization completed in 3414 ms
-5291 [main] INFO  com.zaxxer.hikari.HikariDataSource
+4522 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 3122 ms
+4842 [main] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Starting...
-5556 [main] INFO  com.zaxxer.hikari.pool.HikariPool
-                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a1dddba
-5556 [main] INFO  com.zaxxer.hikari.HikariDataSource
+5202 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ee39e73
+5202 [main] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Start completed.
-5722 [main] INFO  o.h.jpa.internal.util.LogHelper
+5426 [main] INFO  o.h.jpa.internal.util.LogHelper
                 – HHH000204: Processing PersistenceUnitInfo [name: default]
-5818 [main] INFO  org.hibernate.Version
+5862 [main] INFO  org.hibernate.Version
                 – HHH000412: Hibernate ORM core version 5.6.7.Final
-6055 [main] INFO  o.h.annotations.common.Version
+6294 [main] INFO  o.h.annotations.common.Version
                 – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-6251 [main] INFO  org.hibernate.dialect.Dialect
+6558 [main] INFO  org.hibernate.dialect.Dialect
                 – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-7296 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+7846 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
                 – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-7306 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+7870 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
                 – Initialized JPA EntityManagerFactory for persistence unit 'default'
-8192 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+8710 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
                 – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-9376 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+9814 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
                 – Exposing 1 endpoint(s) beneath base path '/actuator'
-9455 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+9894 [main] INFO  o.a.coyote.http11.Http11NioProtocol
                 – Starting ProtocolHandler ["http-nio-8080"]
-9568 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+9998 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
                 – Tomcat started on port(s): 8080 (http) with context path ''
-9602 [main] INFO  c.example.demo21.Demo21Application
-                – Started Demo21Application in 8.951 seconds (JVM running for 10.735)
-9914 [RMI TCP Connection(5)-172.28.64.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+10022 [main] INFO  c.example.demo21.Demo21Application
+                – Started Demo21Application in 9.439 seconds (JVM running for 11.011)
+10722 [RMI TCP Connection(11)-172.17.208.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
                 – Initializing Spring DispatcherServlet 'dispatcherServlet'
-9914 [RMI TCP Connection(5)-172.28.64.1] INFO  o.s.web.servlet.DispatcherServlet
+10723 [RMI TCP Connection(11)-172.17.208.1] INFO  o.s.web.servlet.DispatcherServlet
                 – Initializing Servlet 'dispatcherServlet'
-9920 [RMI TCP Connection(5)-172.28.64.1] INFO  o.s.web.servlet.DispatcherServlet
-                – Completed initialization in 6 ms
-10699 [RMI TCP Connection(4)-172.28.64.1] WARN  o.s.b.a.mail.MailHealthIndicator
-                – Mail health check failed
-javax.mail.MessagingException: Could not connect to SMTP host: smtp.yandex.ru, port: 465
-	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2212)
-	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)
-	at javax.mail.Service.connect(Service.java:342)
-	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
-	at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:398)
-	at org.springframework.boot.actuate.mail.MailHealthIndicator.doHealthCheck(MailHealthIndicator.java:42)
-	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
-	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
-	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:77)
-	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:40)
-	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:130)
-	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateContribution(HealthEndpointSupport.java:141)
-	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:126)
-	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:95)
-	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:66)
-	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:71)
-	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:61)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
-	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:74)
-	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
-	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:122)
-	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:97)
-	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
-	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
-	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
-	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
-	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654)
-	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473)
-	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369)
-	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396)
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480)
-	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458)
-	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:199)
-	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:171)
-	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1488)
-	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1394)
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
-	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
-	at com.sun.mail.util.SocketFetcher.configureSSLSocket(SocketFetcher.java:602)
-	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:376)
-	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214)
-	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
-	... 48 common frames omitted
-Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439)
-	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306)
-	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
-	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
-	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638)
-	... 63 common frames omitted
-Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141)
-	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126)
-	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
-	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434)
-	... 68 common frames omitted
-40723 [http-nio-8080-exec-2] INFO  c.e.demo21.services.StudentService
-                – readAllEntity students
-40993 [http-nio-8080-exec-2] INFO  com.example.demo21.AOPAspect
-                – StudentService.readAllEntity()
-41014 [http-nio-8080-exec-2] INFO  com.example.demo21.AOPAspect
-                – Method: readAllEntity from class com.example.demo21.services.StudentService[Ljava.lang.Object;@3eb92dcc persist for 288 ms with parametrs{}: []
-55970 [http-nio-8080-exec-3] INFO  c.e.demo21.services.GroupService
+10726 [RMI TCP Connection(11)-172.17.208.1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 3 ms
+30982 [http-nio-8080-exec-1] INFO  c.e.demo21.services.GroupService
                 – Save group:
-56045 [http-nio-8080-exec-3] INFO  com.example.demo21.AOPAspect
+31110 [http-nio-8080-exec-1] INFO  com.example.demo21.AOPAspect
                 – GroupService.createEntity(..)
-56045 [http-nio-8080-exec-3] INFO  com.example.demo21.AOPAspect
-                – Method: createEntity from class com.example.demo21.services.GroupService[Ljava.lang.Object;@664208f8 persist for 83 ms with parametrs{}: [Group{groupName='ИКБО-09-20'}]
-56375 [task-1] INFO  com.example.demo21.AOPAspect
+31118 [http-nio-8080-exec-1] INFO  com.example.demo21.AOPAspect
+                – Method: createEntity from class com.example.demo21.services.GroupService[Ljava.lang.Object;@5a2ebd79 persist for 128 ms with parametrs{}: [Group{groupName='ИКБО-1999-20'}]
+32040 [task-1] INFO  com.example.demo21.AOPAspect
                 – EmailService.sendNotification(..)
-56375 [task-1] INFO  com.example.demo21.AOPAspect
-                – Method: sendNotification from class com.example.demo21.services.EmailService[Ljava.lang.Object;@51af7bc1 persist for 330 ms with parametrs{}: [Group{groupName='ИКБО-09-20'}]
-90690 [http-nio-8080-exec-4] INFO  c.e.demo21.services.GroupService
-                – Save group:
-90695 [http-nio-8080-exec-4] INFO  com.example.demo21.AOPAspect
-                – GroupService.createEntity(..)
-90695 [http-nio-8080-exec-4] INFO  com.example.demo21.AOPAspect
-                – Method: createEntity from class com.example.demo21.services.GroupService[Ljava.lang.Object;@31dfc7ef persist for 5 ms with parametrs{}: [Group{groupName='ИКБО-09-20'}]
-91597 [task-2] INFO  com.example.demo21.AOPAspect
-                – EmailService.sendNotification(..)
-91597 [task-2] INFO  com.example.demo21.AOPAspect
-                – Method: sendNotification from class com.example.demo21.services.EmailService[Ljava.lang.Object;@7a7f78cf persist for 902 ms with parametrs{}: [Group{groupName='ИКБО-09-20'}]
-147764 [http-nio-8080-exec-5] INFO  c.e.demo21.services.GroupService
-                – readAllEntity group
-147785 [http-nio-8080-exec-5] INFO  com.example.demo21.AOPAspect
-                – GroupService.readAllEntity()
-147785 [http-nio-8080-exec-5] INFO  com.example.demo21.AOPAspect
-                – Method: readAllEntity from class com.example.demo21.services.GroupService[Ljava.lang.Object;@3d94b7b4 persist for 21 ms with parametrs{}: []
-150254 [http-nio-8080-exec-6] INFO  c.e.demo21.services.StudentService
-                – Save student:Student{firstName='John', lastName='Lennon', middleName='Winston'}
-150271 [http-nio-8080-exec-6] INFO  com.example.demo21.AOPAspect
+32040 [task-1] INFO  com.example.demo21.AOPAspect
+                – Method: sendNotification from class com.example.demo21.services.EmailService[Ljava.lang.Object;@7d4994a5 persist for 930 ms with parametrs{}: [Group{groupName='ИКБО-1999-20'}]
+47018 [http-nio-8080-exec-3] INFO  c.e.demo21.services.StudentService
+                – Save student:Student{firstName='gfd', lastName='qwe', middleName='Winston'}
+47042 [http-nio-8080-exec-3] INFO  com.example.demo21.AOPAspect
                 – StudentService.createEntity(..)
-150271 [http-nio-8080-exec-6] INFO  com.example.demo21.AOPAspect
-                – Method: createEntity from class com.example.demo21.services.StudentService[Ljava.lang.Object;@235d2f2e persist for 17 ms with parametrs{}: [Student{firstName='John', lastName='Lennon', middleName='Winston'}]
-151098 [task-3] INFO  com.example.demo21.AOPAspect
+47042 [http-nio-8080-exec-3] INFO  com.example.demo21.AOPAspect
+                – Method: createEntity from class com.example.demo21.services.StudentService[Ljava.lang.Object;@458112fe persist for 40 ms with parametrs{}: [Student{firstName='gfd', lastName='qwe', middleName='Winston'}]
+47925 [task-2] INFO  com.example.demo21.AOPAspect
                 – EmailService.sendNotification(..)
-151098 [task-3] INFO  com.example.demo21.AOPAspect
-                – Method: sendNotification from class com.example.demo21.services.EmailService[Ljava.lang.Object;@7145de4e persist for 822 ms with parametrs{}: [Student{firstName='John', lastName='Lennon', middleName='Winston'}]
-152613 [http-nio-8080-exec-7] INFO  c.e.demo21.services.StudentService
-                – Save student:Student{firstName='John', lastName='Lennon', middleName='Winston'}
-152617 [http-nio-8080-exec-7] INFO  com.example.demo21.AOPAspect
+47925 [task-2] INFO  com.example.demo21.AOPAspect
+                – Method: sendNotification from class com.example.demo21.services.EmailService[Ljava.lang.Object;@5b77714a persist for 883 ms with parametrs{}: [Student{firstName='gfd', lastName='qwe', middleName='Winston'}]
+78741 [http-nio-8080-exec-4] INFO  c.e.demo21.services.StudentService
+                – Save student:Student{firstName='gfd', lastName='qwe', middleName='Winston'}
+78759 [http-nio-8080-exec-4] INFO  com.example.demo21.AOPAspect
                 – StudentService.createEntity(..)
-152617 [http-nio-8080-exec-7] INFO  com.example.demo21.AOPAspect
-                – Method: createEntity from class com.example.demo21.services.StudentService[Ljava.lang.Object;@196e21d9 persist for 4 ms with parametrs{}: [Student{firstName='John', lastName='Lennon', middleName='Winston'}]
-153457 [task-4] INFO  com.example.demo21.AOPAspect
+78759 [http-nio-8080-exec-4] INFO  com.example.demo21.AOPAspect
+                – Method: createEntity from class com.example.demo21.services.StudentService[Ljava.lang.Object;@65bd154d persist for 18 ms with parametrs{}: [Student{firstName='gfd', lastName='qwe', middleName='Winston'}]
+79549 [task-3] INFO  com.example.demo21.AOPAspect
                 – EmailService.sendNotification(..)
-153457 [task-4] INFO  com.example.demo21.AOPAspect
-                – Method: sendNotification from class com.example.demo21.services.EmailService[Ljava.lang.Object;@11ab826b persist for 840 ms with parametrs{}: [Student{firstName='John', lastName='Lennon', middleName='Winston'}]
-181864 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+79549 [task-3] INFO  com.example.demo21.AOPAspect
+                – Method: sendNotification from class com.example.demo21.services.EmailService[Ljava.lang.Object;@62a4c78d persist for 790 ms with parametrs{}: [Student{firstName='gfd', lastName='qwe', middleName='Winston'}]
+82479 [http-nio-8080-exec-6] INFO  c.e.demo21.services.StudentService
+                – Save student:Student{firstName='gfdjhgj', lastName='qwe', middleName='Winston'}
+82523 [http-nio-8080-exec-6] INFO  com.example.demo21.AOPAspect
+                – StudentService.createEntity(..)
+82523 [http-nio-8080-exec-6] INFO  com.example.demo21.AOPAspect
+                – Method: createEntity from class com.example.demo21.services.StudentService[Ljava.lang.Object;@53b3f4c3 persist for 44 ms with parametrs{}: [Student{firstName='gfdjhgj', lastName='qwe', middleName='Winston'}]
+83430 [task-4] INFO  com.example.demo21.AOPAspect
+                – EmailService.sendNotification(..)
+83430 [task-4] INFO  com.example.demo21.AOPAspect
+                – Method: sendNotification from class com.example.demo21.services.EmailService[Ljava.lang.Object;@7aef97be persist for 907 ms with parametrs{}: [Student{firstName='gfdjhgj', lastName='qwe', middleName='Winston'}]
+110545 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
                 – Closing JPA EntityManagerFactory for persistence unit 'default'
-181872 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+110553 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Shutdown initiated...
-181888 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+110569 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+1519 [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+1519 [main] INFO  c.example.demo21.Demo21Application
+                – Starting Demo21Application using Java 15.0.1 on LAPTOP-87654321 with PID 11232 (D:\java\2cource\Exapmle_GUI\JavaPatternMirea\src\ru\mirea\task21\demo21\target\classes started by Ivan in D:\java\2cource\Exapmle_GUI\JavaPatternMirea)
+1523 [main] INFO  c.example.demo21.Demo21Application
+                – No active profile set, falling back to 1 default profile: "default"
+2929 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3055 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 110 ms. Found 2 JPA repository interfaces.
+4764 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+4772 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+4780 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+4780 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.60]
+4988 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+4988 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 3364 ms
+5316 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+5693 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54c60202
+5701 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+5893 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+5973 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.7.Final
+6189 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+6359 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+7282 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7298 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+8028 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9022 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+9094 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+9166 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+9198 [main] INFO  c.example.demo21.Demo21Application
+                – Started Demo21Application in 8.508 seconds (JVM running for 10.226)
+9438 [RMI TCP Connection(3)-172.17.208.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+9438 [RMI TCP Connection(3)-172.17.208.1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+9446 [RMI TCP Connection(3)-172.17.208.1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 8 ms
+24395 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+24395 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+24411 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
                 – HikariPool-1 - Shutdown completed.
