@@ -31,10 +31,14 @@ import java.io.IOException;
 public class SchedulerServiceImpl implements SchedulerService {
     private final String BACKUP_DIR = "src/ru/mirea/task24/demo24/backups/";
 
+    private final StudentService studentService;
+    private final GroupService groupService;
+
     @Autowired
-    private StudentService studentService;
-    @Autowired
-    private GroupService groupService;
+    public SchedulerServiceImpl(StudentService studentService, GroupService groupService) {
+        this.studentService = studentService;
+        this.groupService = groupService;
+    }
 
 
     //сначала сделаем по 1 минуте, чтобы не ждать 30 минут
