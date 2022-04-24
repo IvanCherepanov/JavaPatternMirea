@@ -76,3 +76,18 @@ Group{
 Group{
 	groupName='ИКБО-34-20'
 }
+Group{
+	groupName='ИКБО-04-20'
+}
+Group{
+	groupName='ИКБО-101-20'
+}
+Group{
+	groupName='ИКБО-120-20'
+}
+Group{
+	groupName='ИКБО-1999-20'
+}
+Group{
+	groupName='ИКБО-199-20'
+}

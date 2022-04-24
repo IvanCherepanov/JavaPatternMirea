@@ -41,12 +41,6 @@ Student{
 }
 
 Student{
-	firstName='Bobik'
-	lastName='Lennon'
-	middleName='Jonh'
-}
-
-Student{
 	firstName='John'
 	lastName='Lennon'
 	middleName='Winston'
@@ -83,8 +77,32 @@ Student{
 }
 
 Student{
-	firstName='Bobik'
+	firstName='Piter'
 	lastName='Lennon'
-	middleName='Jonh'
+	middleName='Winston'
+}
+
+Student{
+	firstName='gfd'
+	lastName='qwe'
+	middleName='Winston'
+}
+
+Student{
+	firstName='gfd'
+	lastName='qwe'
+	middleName='Winston'
+}
+
+Student{
+	firstName='gfdjhgj'
+	lastName='qwe'
+	middleName='Winston'
+}
+
+Student{
+	firstName='Sherlock'
+	lastName='Holmes'
+	middleName='DonorKnow'
 }
 

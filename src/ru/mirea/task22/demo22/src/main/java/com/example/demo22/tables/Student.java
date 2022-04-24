@@ -45,6 +45,7 @@ public class Student {
                 "\tfirstName='" + firstName + '\'' +
                 "\n\tlastName='" + lastName + '\'' +
                 "\n\tmiddleName='" + middleName + '\'' +
+                "\n\tgroup_id='" + groupId + '\'' +
                 "\n}" +"\n";
     }
 }
