@@ -36,7 +36,7 @@ public class GroupService  {
 
     public Groups readOneEntity(long id) {
         log.info("readOneEntity group by id: ",  id);
-        return groupsRepository.getById(id);
+        return groupsRepository.findById(id).get();
     }
 
 

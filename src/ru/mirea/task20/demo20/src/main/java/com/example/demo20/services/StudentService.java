@@ -38,7 +38,7 @@ public class StudentService {
 
     public Student readOneEntity(long id) {
         log.info("readOneEntity student by id: ",  id);
-        return studentRepository.getById(id);
+        return studentRepository.findById(id).get();
     }
 
 
